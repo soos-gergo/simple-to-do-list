@@ -1,6 +1,6 @@
 # Simple To Do list
 ## Introduce
-A simple to-do list with HTML, CSS and JS. It runs a simple web browser.
+A simple to-do list with HTML, CSS and JS. It runs a simple web browser. The original project is open-source because here is [link](https://codingartistweb.com/2021/02/simple-to-do-list-javscript-javascript-project/).
 
 ## Goals
 My goals are create an easy-to-use web app, practise technologies (you can see below) and GitHub.
