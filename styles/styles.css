@@ -28,6 +28,23 @@ body {
     padding: 30px 40px;
 }
 
+.appearance button {
+    position: relative;
+    float: right;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #8052ec;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
 
 #newtask {
     position: relative;
@@ -111,4 +128,12 @@ body {
 
 .completed {
     text-decoration: line-through;
+}
+
+.dark-mode {
+    background: linear-gradient(
+        135deg,
+        #2E1051,
+        #624388
+    );
 }
