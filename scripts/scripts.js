@@ -31,3 +31,40 @@ document.querySelector('#push').onclick = function(){
         document.querySelector("#newtask input").value = "";
     }
 };
+
+function changeDarkMode() {
+
+    changeBackgroundColor();
+    changeButtonText();
+    changeButtonsColor();
+}
+
+function changeBackgroundColor() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+
+function changeButtonText() {
+    var element = document.getElementById("button-mode");
+    if(element.innerHTML === "Dark mode") {
+        element.innerHTML = "Light mode";
+    } else {
+        element.innerHTML = "Dark mode";
+    }
+}
+
+function changeButtonsColor() {
+
+    var button_mode = document.getElementById("button-mode");
+    if(button_mode.innerHTML != "Light mode") {
+        button_mode.classList.add("dark-mode");   
+    } else {
+        button_mode.classList.remove("dark-mode");
+    }
+
+    var button_add = document.getElementById("push");
+    button_add.classList.toggle("dark-mode");
+
+    var button_delete = document.getElementsByClassName("delete");
+    button_delete.innerHTML
+}
